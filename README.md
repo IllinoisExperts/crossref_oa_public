@@ -93,3 +93,14 @@ A progress bar will also update with each request visualizing the program's prog
 
 ## Contact Info
 If you have questions or comments about using this program, you can contact the Illinois Experts team at experts-help@illinois.edu
+
+## Additional Info / External Documentation
+* Documentation for the Crossref API is available here: https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+
+**NOTE**: This documentation explains that there are two publicly accessible pools for API requests: "Public" and "Polite". The Public pool is the general pool that will be used in this program, it has a rate limit of 5 requests per second. While running this program for use with Illinois Experts, this limit has never been reached, so it is unlikely to be a problem. However, should you have reason to believe that you will exceed this limit in your use of the program (which will cause 429 HTTP response errors), you can modify the program to use the "Polite" pool which has a rate limit of 10 requests per second. In order to access this pool, you can include a "mailto" parameter in the Crossref API request as explained and shown in examples here: https://www.crossref.org/blog/announcing-changes-to-rest-api-rate-limits/
+
+* Documentation for `requests` python library can be found here: https://requests.readthedocs.io/en/latest/
+
+* Documentation for `pandas` python library can be found here: https://pandas.pydata.org/docs/
+
+* Documentation for `tqdm` python library can be found here: https://tqdm.github.io/
