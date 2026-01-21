@@ -47,7 +47,7 @@ Many Python integrated development environments (IDEs) also include convenient t
 
 This program is composed of main python script titled **"API Updater.py"** which runs the program and makes the updates to Pure and a custom library titled **"crossref_data_harvester.py"** that defines a function "get_crossref_license_date" that queries the Crossref API for the supplemental metadata. There is no need to run this second program, it will be invoked by "API Updater.py" when that script is run. 
 
-To run the program, download both scripts and run **"API Updater.py"** from your integrated development environment (IDE). The program will walk you through the following process:
+To run the program, download both scripts to the same folder and run **"API Updater.py"** from your integrated development environment (IDE). The program will walk you through the following process:
 
 1. Enter your API key. Press ENTER and the program will automatically move to the next step.
 
