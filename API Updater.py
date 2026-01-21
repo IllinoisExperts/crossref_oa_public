@@ -10,10 +10,11 @@ from datetime import datetime
 
 def main():
     api_key = input("Enter your API key: ")
-    url = input("Enter the URL for the research outputs endpoint of your Pure instance: ")
 
     file = input("Enter path to file with CSV of research outputs to be updated: ")
     file = file.strip("\"").replace("\\", "/")
+
+    url = input("Enter the URL for the research outputs endpoint of your Pure instance: ")
 
     doi_col = input("Enter the name of the column in the csv file that contains the DOI for each output: ")
     uuid_col = input("Enter the name of the column in the csv file that contains the UUID for each output: ")
@@ -323,5 +324,6 @@ def main():
 
 
 main()
+
 
 
