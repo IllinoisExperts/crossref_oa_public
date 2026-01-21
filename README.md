@@ -90,3 +90,6 @@ This is normal and means the DOI was not found to be valid in Crossref's databas
 If, on the other hand, errors are being printed that have the URL of the Pure API rather than the Crossref API, this indicates a more serious issue (either that the program is running into timeout errors, having some problem with updating the Pure record, or the UUIDs in the Excel file are incorrect). These errors will also be accessible in the "put_errors" and "get_errors" txt files alongside the URL for the API call for further investigation. 
 
 A progress bar will also update with each request visualizing the program's progress as it runs. 
+
+## Contact Info
+If you have questions or comments about using this program, you can contact the Illinois Experts team at experts-help@illinois.edu
